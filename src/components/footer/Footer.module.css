@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "Roboto300";
+	src: url('../../assets/Roboto300.ttf')
+}
+.footer {
+	font-family: "Roboto300";
+	height: 55px;
+    padding: 0 20px;
+    background-color: #0067A3;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counts {
+	display: flex;
+	margin-left: 10px;
+}
+.count {
+	display: flex;
+	margin-right: 30px;
+}
+.count + .count::before {
+	content: '';
+	display: block;
+	text-decoration: none;
+	background: #FFFFFF;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	left: -15px;
+	top: 0;
+}
+.copy {
+	margin-left: auto;
+}
+.a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.a:hover {
+	color:black;
+    transition: all ease 0.3s;
+}
+.statistics {
+    display: flex;
+    margin-left: 20px;
+}
+.finished {
+    margin-left: 36px;
+}
+@media (max-width: 660px) {
+    .footer {
+        display: none;
+    }
+}

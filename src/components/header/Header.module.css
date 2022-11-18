@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Roboto400";
+	src: url('../../assets/Roboto400.ttf')
+}
+@media (max-width: 450px) {
+    .header {
+        background-color: #0079BF;
+    }
+    .title {
+		width: 300px;
+        color: #0079BF;
+    }
+}
+.header {
+	display: flex;
+	background: #0067A3;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	font-family: "Roboto400";
+}
+.title {
+	font-family: "Roboto400";
+	color: #fff;
+	display: flex;
+	cursor: pointer;
+	text-decoration: none;
+}
+.logo {
+	cursor: pointer;
+	text-decoration: none;
+	width: 45px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+.sprint {
+	margin-left: auto;
+}

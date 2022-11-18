@@ -1,0 +1,79 @@
+.content {
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    height: 90%;
+    max-height: 548px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    padding: 30px;
+    pointer-events: all;
+}
+.name {
+    width: 80%;
+    border-style: none;
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+}
+.description {
+    margin-top: 10px;
+	width: 99.5%;
+	height: 255px;
+	font-family: "Roboto300";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+    border-radius: 4px;
+}
+.exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.exitLine1 {
+    position: absolute;
+    top: 15px;
+    width: 33px;
+    height: 0;
+    border: 1px solid #000000;
+    transform: rotate(45deg);
+    background: transparent;
+}
+.exitLine2 {
+    position: absolute;
+    top: 15px;
+    width: 33px;
+    height: 0;
+    border: 1px solid #000000;
+    transform: rotate(-45deg);
+    background: transparent;
+}
+.createdAt {
+	font-family: "Roboto300";
+    margin-left: 2px;
+    margin-top: 2px;
+	color: #737373;
+	font-size: 12px;
+}
+.nameNF {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    border-style: none;
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+}
+.emptyStateIcon {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 200px;
+}
